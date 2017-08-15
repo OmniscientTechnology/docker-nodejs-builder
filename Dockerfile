@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y wget locales && \
  export CHROME_BIN=google-chrome-beta
 
 RUN yarn global add github:gulpjs/gulp#4.0 && \
-  yarn global add lerna@2.0.0-beta.37 && \
+  yarn global add lerna && \
   yarn global add typescript && \
   yarn global add tape && \
   yarn cache clean
