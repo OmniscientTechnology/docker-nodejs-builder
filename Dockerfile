@@ -17,5 +17,6 @@ RUN yarn global add github:gulpjs/gulp#4.0 && \
   yarn global add lerna && \
   yarn global add typescript && \
   yarn global add tape && \
+  yarn global add aurelia-cli && \
   yarn cache clean
   
